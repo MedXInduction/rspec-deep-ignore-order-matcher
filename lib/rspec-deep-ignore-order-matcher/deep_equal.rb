@@ -1,4 +1,4 @@
-RSpec::Matchers.define :be_deep_equal do |expected|
+RSpec::Matchers.define :deep_equal do |expected|
   match { |actual| match? actual, expected }
 
   failure_message do |actual|
